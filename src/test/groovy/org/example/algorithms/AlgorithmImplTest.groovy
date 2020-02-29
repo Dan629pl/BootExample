@@ -25,7 +25,7 @@ class AlgorithmImplTest extends Specification {
         [1, 1, 6]          | 2
         [1, 6, 2, 3]       | 3
         [1, 1, 1, 1]       | 0
-        [1, 1, 6, 6, 3]    | 5
+        [1, 1, 6, 6, 3] | 4
         [1, 1, 6, 6, 3, 3] | 4
     }
 }
