@@ -1,7 +1,5 @@
 package org.example.algorithms;
 
-import java.util.List;
-
 public interface Algorithm {
 
     /**
@@ -9,8 +7,8 @@ public interface Algorithm {
      * Kosci do gry moga miec wartosci od 1-6. Pary liczb przeciwnych (na odwrocie kosci) wygladaja nastepujaco: 6-1,5-2,4-3. Oznacza to ze
      * minimalna liczba ruchow aby kosc z liczby 6 przeszla na 1 wynosi 2.
      *
-     * Parametr values to lista kosci z ich aktualna wartoscia. Metoda powinna zwrocic minimalna liczbe ruchow tak aby na kazdej kosci
+     * Parametr values to tablica kosci z ich aktualna wartoscia. Metoda powinna zwrocic minimalna liczbe ruchow tak aby na kazdej kosci
      * widniala taka sama liczba oczek.
      */
-    int getMinimumNumberOfCubeMoves(List<Integer> values);
+    int getMinimumNumberOfCubeMoves(int[] values);
 }

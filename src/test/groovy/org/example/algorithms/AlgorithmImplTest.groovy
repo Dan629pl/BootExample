@@ -10,7 +10,7 @@ class AlgorithmImplTest extends Specification {
     def "Metoda getMinimumNumberOfMoves powinna zwrocic #expected gdy dane wejsciowe to #values"() {
 
         when:
-        def result = sut.getMinimumNumberOfCubeMoves(values)
+        def result = sut.getMinimumNumberOfCubeMoves(values as int[])
 
         then:
         result == expected

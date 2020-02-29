@@ -1,11 +1,10 @@
 package org.example.algorithms;
 
-import java.util.List;
-
 public class AlgorithmImpl implements Algorithm {
 
     @Override
-    public int getMinimumNumberOfCubeMoves(List<Integer> values) {
+    public int getMinimumNumberOfCubeMoves(int[] values) {
+        System.out.println(values);
         return 0;
     }
 }
